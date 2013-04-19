@@ -1,8 +1,8 @@
 package = "lusty-log-console"
-version = "0.1-0"
+version = "0.1-1"
 source = {
-  url = "https://github.com/Olivine-Labs/lusty-log-console/v0.1.tar.gz",
-  dir = "lusty-log-console"
+  url = "https://github.com/Olivine-Labs/lusty-log-console/archive/v0.1.tar.gz",
+  dir = "lusty-log-console-0.1"
 }
 description = {
   summary = "Logging interface for lusty.",

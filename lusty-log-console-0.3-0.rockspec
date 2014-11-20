@@ -1,8 +1,8 @@
 package = "lusty-log-console"
-version = "0.2-0"
+version = "0.3-0"
 source = {
-  url = "https://github.com/Olivine-Labs/lusty-log-console/archive/v0.2.tar.gz",
-  dir = "lusty-log-console-0.2"
+  url = "https://github.com/Olivine-Labs/lusty-log-console/archive/v0.3.tar.gz",
+  dir = "lusty-log-console-0.3"
 }
 description = {
   summary = "Logging interface for lusty.",
@@ -20,6 +20,6 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["lusty-log-console.log.console"]  = "src/log/console.lua",
+    ["lusty-log-console.log.console"]  = "lusty-log-console/log/console.lua",
   }
 }
